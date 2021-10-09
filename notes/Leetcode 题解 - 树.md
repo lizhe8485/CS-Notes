@@ -1,4 +1,4 @@
-# Leetcode 题解 - 树
+# Leetcode 题解 - 树 (Binary Tree)
 <!-- GFM-TOC -->
 * [Leetcode 题解 - 树](#leetcode-题解---树)
     * [递归](#递归)
@@ -42,10 +42,14 @@
 
 ## 递归
 
-一棵树要么是空树，要么有两个指针，每个指针指向一棵树。树是一种递归结构，很多树的问题可以使用递归来处理。
+A binary tree 要么是空树，要么有两个指针，每个指针指向一棵树。树是一种递归结构，很多树的问题可以使用递归来处理。
 
 ### 1. 树的高度
-
+* Concepts:
+   * The depth/height of a node in a binary tree is the total number of edges from the root node to the target node. 
+   * Similarly, the depth/height of a binary tree is the total number of edges from the root node to the most distant leaf node
+   * Max depth: the number of nodes (or edges?) along the longest path from the root node down to the farthest leaf node.
+   * Min depth: the number of nodes (or edges?) along the shortest path from the root node down to the nearest leaf node.
 104\. Maximum Depth of Binary Tree (Easy)
 
 [Leetcode](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) / [力扣](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/description/)
